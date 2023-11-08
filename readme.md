@@ -13,7 +13,7 @@ This GPA calculator computes your GPA and creates a report based on your course 
 
 ## Usage
 * Add the shortcode `[ci_gpa_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
+* Or add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
