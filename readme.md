@@ -12,8 +12,7 @@ This GPA calculator computes your GPA and creates a report based on your course 
 3. Activate the [GPA Calculator](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_gpa_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the GPA Calculator to the sidebar through the `Appearance -> Widgets -> GPA Calculator` menu in WordPress.
+* Add the shortcode `[ci_gpa_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
 
 ## Libraries in Use
