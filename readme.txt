@@ -13,6 +13,8 @@ This GPA calculator computes your GPA and creates a report based on your course 
 
 This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
 
+[GPA Calculator Homepage](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage")
+
 __Shortcode__
 
 Use the GPA Calculator shortcode:
