@@ -13,34 +13,35 @@ This GPA calculator computes your GPA and creates a report based on your course 
 
 This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
 
-[GPA Calculator Homepage](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage")
+[https://www.calculator.io/gpa-calculator/](https://www.calculator.io/gpa-calculator/)
 
-__Shortcode__
-
-Use the GPA Calculator shortcode:
+__GPA Calculator Shortcode__
 
 `[ci_gpa_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_gpa_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [GPA Calculator](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== GPA Calculator Usage ==
+
 * Add the shortcode `[ci_gpa_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
 
 == Screenshots ==
+
 1. The GPA Calculator Input Form.
 2. The GPA Calculator Calculation Results.
+
+== Libraries used in GPA Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
