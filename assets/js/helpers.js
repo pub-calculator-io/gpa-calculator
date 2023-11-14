@@ -55,7 +55,7 @@ function getFieldsHtml(semester = 'a', field = 'a'){
 				</label><label class="input col grade-calculator  ">
 				<p class="input__title">Credits</p>
 				<div class="input-field row">
-				<input type="text" class="input-field__input" placeholder="0" id="credits_${semester}_${field}" value="">
+				<input type="text" class="input-field__input" id="credits_${semester}_${field}" value="">
 				</div>
 				
 				
@@ -116,7 +116,7 @@ function getFieldsHtml(semester = 'a', field = 'a'){
 				<label class="input col format ${gradeFormat === 'percent' ? '' : 'related-item-hidden'} related-to-format-percent">
 				<p class="input__title">Grade</p>
 				<div class="input-field row">
-				<input type="text" class="input-field__input" placeholder="0" id="grade_percent_${semester}_${field}" value="">
+				<input type="text" class="input-field__input" id="grade_percent_${semester}_${field}" value="">
 				<span class="input-field__hint">%</span>
 				</div>
 				
@@ -124,7 +124,7 @@ function getFieldsHtml(semester = 'a', field = 'a'){
 				</label><label class="input col format ${gradeFormat === 'point' ? '' : 'related-item-hidden'} related-to-format-point  ">
 				<p class="input__title">Grade</p>
 				<div class="input-field row">
-				<input type="text" class="input-field__input" placeholder="0" id="grade_point_${semester}_${field}" value="">
+				<input type="text" class="input-field__input" id="grade_point_${semester}_${field}" value="">
 				</div>
 				</label><label class="input col">
 				<button class="input-field input-field--clear row" id="clear_${semester}_${field}">
