@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
 
-== Description ==
-
-This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
-
 [https://www.calculator.io/gpa-calculator/](https://www.calculator.io/gpa-calculator/)
 
-__GPA Calculator Shortcode__
+== Usage ==
+
+Add the GPA Calculator shortcode to your page, post or sidebar:
 
 `[ci_gpa_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the GPA Calculator to appear:
 
-1. Upload the /ci_gpa_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [GPA Calculator](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== GPA Calculator Usage ==
-
-* Add the shortcode `[ci_gpa_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
+`<?php display_ci_gpa_calculator(); ?>`
 
 == Screenshots ==
 
 1. The GPA Calculator Input Form.
 2. The GPA Calculator Calculation Results.
 
-== Libraries used in GPA Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the GPA Calculator /ci_gpa_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the GPA Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of GPA Calculator
