@@ -1,6 +1,6 @@
 === GPA Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: gpa calculator, calculate gpa, grade point average, gpa scale, cumulative gpa, academic performance, grade calculator, college GPA, high school GPA, grading system
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
