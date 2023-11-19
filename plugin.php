@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: GPA Calculator by www.calculator.io
+Plugin Name: CI Gpa calculator
 Plugin URI: https://www.calculator.io/gpa-calculator/
 Description: This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
 Version: 1.0.0
