@@ -7,7 +7,7 @@ This GPA calculator computes your GPA and creates a report based on your course 
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/gpa-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /gpa-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [GPA Calculator](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
