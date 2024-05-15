@@ -3,7 +3,6 @@
 This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
 
 ![GPA Calculator Input Form](/assets/images/screenshot-1.png "GPA Calculator Input Form")
-![GPA Calculator Calculation Results](/assets/images/screenshot-2.png "GPA Calculator Calculation Results")
 
 ## Installation
 

@@ -52,7 +52,7 @@
                 							<input type="text" class="input-field__input" placeholder="" id="course_a_a" value="Math" />
                 							
                 						</div>
-                					</label>		<label class="input col   ">
+                					</label>		<label class="input col grade-calculator  ">
                 						<p class="input__title">Credits</p>
                 						<div class="input-field row">
                 							<input type="text" class="input-field__input" placeholder=""  id="credits_a_a" value="3"  />
@@ -136,7 +136,7 @@
                 							<input type="text" class="input-field__input" placeholder="" id="course_a_b" value="English" />
                 							
                 						</div>
-                					</label>		<label class="input col   ">
+                					</label>		<label class="input col grade-calculator  ">
                 						<p class="input__title">Credits</p>
                 						<div class="input-field row">
                 							<input type="text" class="input-field__input" placeholder=""  id="credits_a_b" value="3"  />
@@ -220,7 +220,7 @@
                 							<input type="text" class="input-field__input" placeholder="" id="course_a_c" value="History" />
                 							
                 						</div>
-                					</label>		<label class="input col   ">
+                					</label>		<label class="input col grade-calculator  ">
                 						<p class="input__title">Credits</p>
                 						<div class="input-field row">
                 							<input type="text" class="input-field__input" placeholder=""  id="credits_a_c" value="2"  />
@@ -304,7 +304,7 @@
                 							<input type="text" class="input-field__input" placeholder="" id="course_a_d" value="" />
                 							
                 						</div>
-                					</label>		<label class="input col   ">
+                					</label>		<label class="input col grade-calculator  ">
                 						<p class="input__title">Credits</p>
                 						<div class="input-field row">
                 							<input type="text" class="input-field__input" placeholder=""  id="credits_a_d" value=""  />
@@ -452,13 +452,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -473,8 +475,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -491,7 +492,7 @@
 				<th>GRADE POINTS</th>
 			</tr>
 			</tbody>
-			<tbody id="result-table">
+			<tbody id="result-table" class="animate">
 			<tr>
 				<td>Math</td>
 				<td>3</td>

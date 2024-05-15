@@ -24,7 +24,6 @@ Add the following code to your template where you would like the GPA Calculator 
 == Screenshots ==
 
 1. The GPA Calculator Input Form.
-2. The GPA Calculator Calculation Results.
 
 == Installation ==
 
