@@ -1,6 +1,6 @@
 # GPA Calculator Widget for WordPress
 
-This GPA calculator computes your GPA and creates a report based on your course credits and grade. Both numerical and letter grades are accepted.
+Calculate your high school or college GPA in seconds. Our free GPA calculator computes your cumulative Grade Point Average using letter or number grades.
 
 ![GPA Calculator Input Form](/assets/images/screenshot-1.png "GPA Calculator Input Form")
 
@@ -11,8 +11,8 @@ This GPA calculator computes your GPA and creates a report based on your course 
 3. Activate the [GPA Calculator](https://www.calculator.io/gpa-calculator/ "GPA Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_gpa_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
+* Add the shortcode `[calcio_gpa_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_gpa_calculator(); ?>` to your template where you would like the GPA Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
